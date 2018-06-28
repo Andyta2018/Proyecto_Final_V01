@@ -122,3 +122,6 @@ v. Requerimientos del sitio:
 	- Imágenes:
 		- Seran relaes y se inlcuirán en la carpeta images, dentro de la carpeta css (css/images).
 	
+
+	- El proyecto se encuentra en Github, en el siguiente link: 
+		https://github.com/Andyta2018/Proyecto_Final_V01
