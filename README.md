@@ -70,10 +70,16 @@ v. Requerimientos del sitio:
 
 		![](images/PaletaColores.png)
 
-	- El sketch de escritorio y móvil es:
+	- El sketch de escritorio y móvil de la pagina de inicio es:
 
 		![](images/sketch.jpg)
-		
+
+	- El sketch de escritorio paginas secundarias y sketch móvil de la pagina de contacto es:
+
+		![](images/sketch_paginasecundaria.jpg)
+
+		![](images/sketch_paginacontacto.jpg)
+
 	- El mockup de escritorio y móvil es:
 
 		![](images/Mockup.pdf
