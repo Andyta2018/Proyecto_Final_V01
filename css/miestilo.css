@@ -1,11 +1,11 @@
 /* Font css*/
 @font-face {
-    font-family: Shrikhand-Regular;
-    src: url(../Proyecto final_V01/fonts/Shrikhand/Shrikhand-Regular.ttf);
+    font-family: Oregano-Regular;
+    src: url(fonts/Oregano/Oregano-Regular.ttf);
 }
 @font-face {
-    font-family: Montserrat-Bold;
-    src: url(../Proyecto final_V01/fonts/Montserrat/Montserrat-Bold.ttf);
+    font-family: Pompiere-Regular;
+    src: url(fonts/Pompiere/Pompiere-Regular.ttf);
 }
 
 /*Barra Navegación*/
@@ -19,6 +19,7 @@
 .navbar-text{
 	color: #595859;
 	font-size: 1rem;
+	font-family: Pompiere-Regular;
 
 }
 .navbar-text-list{
@@ -62,7 +63,6 @@
 	list-style: none;
 }
 
-
 .main_menu{
 	background-color: #FF5729;
     border-radius: 15px;
@@ -70,7 +70,9 @@
     padding-top: 3px;
     padding-bottom: 3px;
     margin-bottom: 1rem;
+    color: #000000;
 }
+
 .main_menudos{
 	background-color: #8B9090;
     border-radius: 15px;
@@ -78,4 +80,43 @@
     padding-top: 3px;
     padding-bottom: 3px;
     margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+/*MAIN_grilla imagenes*/
+
+.main_grid_titulo{
+	position: absolute;
+	z-index: 999;
+	color: #000000;
+}
+
+.main_grid_imgprincipal{
+	position: relative;
+	border-radius: 3rem;
+	display: block;
+	margin: auto;
+
+}
+
+.main_grid_parrafo{
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+.main_grid_img{
+	position: relative;
+	border-radius: 3rem;
+
+}
+
+/*FOOTER*/
+
+.jumbotron{
+	background-color: none;
+}
+
+
+.jumbotron_footer{
+	background-color: #595859;
+	height: 200px;
 }
