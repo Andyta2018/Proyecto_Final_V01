@@ -1,0 +1,81 @@
+/* Font css*/
+@font-face {
+    font-family: Shrikhand-Regular;
+    src: url(../Proyecto final_V01/fonts/Shrikhand/Shrikhand-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../Proyecto final_V01/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+/*Barra Navegación*/
+.navbar{
+	background-color: #FF5729;
+	height: 120px;
+	color: none;
+	border-bottom: solid 1rem #595859;
+}
+
+.navbar-text{
+	color: #595859;
+	font-size: 1rem;
+
+}
+.navbar-text-list{
+	list-style: none;
+	text-align: left;
+	margin-left: 1rem;
+	padding-left: 0rem;
+	
+}
+
+/*Header*/
+.banner-logo{
+	position: absolute;
+	width: 15%;
+	z-index: 1;
+}
+.banner_carousel{
+	margin-top: 0px; 
+	position: relative;
+}
+
+.navbar_link{
+	z-index: 9999; 
+	padding-left: 25rem;
+}
+
+.navbar_link_text{
+    background-color: #FF5729;
+    border-radius: 15px;
+    padding: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+/*MAIN*/
+.main{
+	margin-top: 2rem;
+}
+
+/*MAIN_MENU*/
+.main_menu_list{
+	list-style: none;
+}
+
+
+.main_menu{
+	background-color: #FF5729;
+    border-radius: 15px;
+    padding: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 1rem;
+}
+.main_menudos{
+	background-color: #8B9090;
+    border-radius: 15px;
+    padding: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 1rem;
+}
