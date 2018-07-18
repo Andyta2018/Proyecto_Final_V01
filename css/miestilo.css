@@ -10,26 +10,42 @@
 
 /*Barra Navegación*/
 .navbar{
-	background-color: #FF5729;
-	height: 120px;
+	background-color: #ffffff;
+	height: 150px;
 	color: none;
 	border-bottom: solid 1rem #595859;
 }
 
+
 .navbar-text{
 	color: #595859;
-	font-size: 1rem;
-	font-family: Pompiere-Regular;
-
+	font-size: none;
+	margin-right: 1rem;
+	padding-top: 2rem;
 }
+
+.navbar-icon{
+	margin-left: 40px;
+	margin-right: 5px;
+	color: #063B18 ;
+}
+
+.navbar-iconcar{
+	margin-left: 20px;
+}
+
 .navbar-text-list{
 	list-style: none;
-	text-align: left;
-	margin-left: 1rem;
+	text-align: center;
+	font-size: 0.7rem;
 	padding-left: 0rem;
-	
 }
 
+.navbar-icon-text{
+	color: #063B18;
+	font-size: 1rem;
+	font-style: bold;
+}
 /*Header*/
 .banner-logo{
 	position: absolute;
@@ -47,7 +63,7 @@
 }
 
 .navbar_link_text{
-    background-color: #FF5729;
+    background-color: #063B18;
     border-radius: 15px;
     padding: 12px;
     padding-top: 3px;
@@ -119,4 +135,10 @@
 .jumbotron_footer{
 	background-color: #595859;
 	height: 200px;
+}
+
+.footer-grid{
+	float: left;
+	text-align: center;
+	font-size: 0.8rem;
 }

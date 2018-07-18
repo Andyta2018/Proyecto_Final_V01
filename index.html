@@ -17,7 +17,7 @@
     crossorigin="anonymous"></script>
     <!-- script.js -->
     <script type="text/javascript" src="js/script.js"></script>
-    
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -25,29 +25,35 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="miestilo.css">
+    <link rel="stylesheet" type="text/css" href="css/miestilo.css">
 
     <title>Tripadvisor | Quilicura</title>
   </head>
   <body>
     <header>
       <!-- Barra Navegación -->
-      <nav class="navbar navbar-expand-lg navbar-light" class="navbar_header">
-        <img src="images/iconseg.png" width="40" height="40" alt="" class="img-fluid">
-        <a class="navbar-brand navbar-text" href="#">
-          <ul class="navbar-text-list">
-            <li>223666783 - 223666784</li>
-            <li>Seguridad ciudadana</li>
-          </ul>
-        </a>
-        <img src="images/iconcar.png" width="40" height="40" alt="" class="img-fluid">
-        <a class="navbar-brand navbar-text" href="#">
-          
-          <ul class="navbar-text-list">
-            <li>223666783</li>
-            <li>Plan cuadrante</li>
-          </ul>
-        </a>
+      <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light" class="navbar_header">
+        
+          <a class="navbar-brand" href="#">
+            <img src="images/logoba.png" width="120" height="120" alt="" class="img-fluid navbar-logo">
+          </a>
+
+          <a class="navbar-brand navbar-text" href="#">  
+            <img src="images/iconseg.png" width="40" height="40" alt="" class="img-fluid navbar-icon">
+              <ul class="navbar-text-list">
+              <li>Seguridad ciudadana</li>
+              <li class="navbar-icon-text">223666784</li>
+             </ul>
+          </a>
+        
+          <a class="navbar-brand navbar-text" href="#">
+            <img src="images/iconcar.png" width="40" height="40" alt="" class="img-fluid navbar-iconcar">
+            <ul class="navbar-text-list">
+                <li>Plan cuadrante</li>
+                <li class="navbar-icon-text">223666783</li>
+            </ul>
+          </a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -57,7 +63,13 @@
                 <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item navbar_link_text">
+                <a class="nav-link" href="#">Menú</a>
+              </li>
+              <li class="nav-item navbar_link_text">
                 <a class="nav-link" href="#">Mapa</a>
+              </li>
+              <li class="nav-item navbar_link_text">
+                <a class="nav-link" href="#">Contacto</a>
               </li>
               <li class="nav-item navbar_link_text">
                 <a class="nav-link" href="#">Contacto</a>
@@ -109,72 +121,75 @@
 
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 main_grid">
-                <h3 class="main_grid_titulo">HISTORIA</h3>
+                
                 <img src="images/historia01.jpg" alt="" class="img-fluid main_grid_imgprincipal">
-                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <h3 class="main_grid_titulo">GASTRONOMIA</h3>
-                <img src="images/querricura.jpg" alt="" class="img-fluid main_grid_img">
-                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <h3 class="main_grid_titulo">ARTE CALLEJERO</h3>
-                <img src="images/arte.jpg" alt="" class="img-fluid main_grid_img">
-                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <h3 class="main_grid_titulo">LUGARES</h3>
-                <img src="images/cementerio.jpg" alt="" class="img-fluid main_grid_img">
-                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <h3 class="main_grid_titulo">TRANSPORTE</h3>
-                <img src="images/plaza.jpg" alt="" class="img-fluid main_grid_img">
-                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <h3 class="main_grid_titulo">ACTIVIDADES</h3>
-                <img src="images/radiotaxi.jpg" alt="" class="img-fluid main_grid_img">
-                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
                 <h3 class="main_grid_titulo">HISTORIA</h3>
+                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+               
+                <img src="images/querricura.jpg" alt="" class="img-fluid main_grid_img">
+                <h3 class="main_grid_titulo">GASTRONOMIA</h3>
+                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+               
+                <img src="images/arte.jpg" alt="" class="img-fluid main_grid_img">
+                <h3 class="main_grid_titulo">ARTE CALLEJERO</h3>
+                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="images/cementerio.jpg" alt="" class="img-fluid main_grid_img">
+                <h3 class="main_grid_titulo">LUGARES</h3>
+                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="images/plaza.jpg" alt="" class="img-fluid main_grid_img">
+                <h3 class="main_grid_titulo">TRANSPORTE</h3>
+                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img src="images/radiotaxi.jpg" alt="" class="img-fluid main_grid_img">
+                <h3 class="main_grid_titulo">ACTIVIDADES</h3>
+                <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
                 <img src="images/actividades.jpg" alt="" class="img-fluid main_grid_img">
+                <h3 class="main_grid_titulo">HISTORIA</h3>
                 <p class="main_grid_parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -189,10 +204,14 @@
 
     <footer>
         <div class="jumbotron jumbotron-fluid jumbotron_footer">
-           <div class="container">
-              
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-            </div>
+          <div class="container">
+              <div class="col-sm-12 col-md-6 col-lg-6 footer-grid">
+                  <a href="https://www.muniquilicura.cl/" clas="footer-link">MUNICIPALIDAD QUILICURA</a>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 footer-grid">
+                  <a href="#" clas="back-top">BACK TO TOP</a>
+              </div>
+          </div>
         </div>
     </footer>
 
