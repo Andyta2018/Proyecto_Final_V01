@@ -8,17 +8,21 @@
     src: url(fonts/Pompiere/Pompiere-Regular.ttf);
 }
 
+body{
+	background-color: #595859;
+}
 /*Barra Navegación*/
 .navbar{
-	background-color: #ffffff;
+	background-color: #FFFFFF;
 	height: 150px;
 	color: none;
-	border-bottom: solid 1rem #595859;
+	border-bottom: solid 0.5rem #ff5729;
 }
 
 
 .navbar-text{
-	color: #595859;
+
+	color: #ff5729;
 	font-size: none;
 	margin-right: 1rem;
 	padding-top: 2rem;
@@ -27,7 +31,7 @@
 .navbar-icon{
 	margin-left: 40px;
 	margin-right: 5px;
-	color: #063B18 ;
+	color: #ff5729 ;
 }
 
 .navbar-iconcar{
@@ -42,10 +46,60 @@
 }
 
 .navbar-icon-text{
-	color: #063B18;
+	color: #FF5729;
 	font-size: 1rem;
 	font-style: bold;
 }
+
+.navbar_link_text{
+    background-color: #ffffff;
+    border-bottom: 0.1rem solid #ff5729;
+    width: 8rem;
+    padding: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navbar_link{
+	z-index: 9999; 
+	padding-left: 25rem;
+	color: #FF5729;
+}
+
+/*Redes Sociales*/
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	right: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+	list-style: none;
+}
+
+.social ul li a {
+	display: inline-block;
+	color:#FFFFFF;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {background:#FF5729;} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {background: #FF5729;}
+.social ul li .icon-insta {background: #FF5729;}
+.social ul li .icon-youtube {background: #FF5729;}
+
+.social ul li a:hover {
+	background: #595859; /* Cambiamos el fondo cuando el usuario pase el mouse */
+	padding-top: 0.5rem;
+	padding-left: 3rem; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
 /*Header*/
 .banner-logo{
 	position: absolute;
@@ -53,32 +107,32 @@
 	z-index: 1;
 }
 .banner_carousel{
-	margin-top: 0px; 
+	margin-top: 160px; 
 	position: relative;
+	border: 2px #595859;
+	border-radius: 5px;
+	border-style: outset;
+}
+.banner-img{
+	max-height: 400px;
 }
 
-.navbar_link{
-	z-index: 9999; 
-	padding-left: 25rem;
-}
-
-.navbar_link_text{
-    background-color: #063B18;
-    border-radius: 15px;
-    padding: 12px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
 /*MAIN*/
 .main{
 	margin-top: 2rem;
+	margin-bottom: 0rem;
+	box-sizing: border-box;
 }
 
 /*MAIN_MENU*/
 .main_menu_list{
 	list-style: none;
+	padding-left: 0px;
 }
-
+ main h2{
+ 	text-align: center;
+ 	color: #FFFFFF;
+ }
 .main_menu{
 	background-color: #FF5729;
     border-radius: 15px;
@@ -98,42 +152,108 @@
     margin-bottom: 1rem;
     color: #FFFFFF;
 }
+/*Media query
+// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 600px) { 
+	[class*="col-"] {width: 100%;}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+	.col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 30%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 1200px) { ... }
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 30%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+}
 
 /*MAIN_grilla imagenes*/
+.main_grid{
+	border: 1px solid #8B9090;
+	border-radius: 2rem;
+	color: #ffffff;
+}
+
+.main_grid_row{
+	border: 1px solid silver;
+	border-radius: 2rem;
+	margin-top: 2rem;
+	margin-right: 0.8rem;
+	max-width: 350px;
+	box-sizing: border-box;
+	color: #ffffff;
+}
 
 .main_grid_titulo{
 	position: absolute;
 	z-index: 999;
 	color: #000000;
+	margin-top: 1rem;
+	color: #ff5729;
 }
 
 .main_grid_imgprincipal{
 	position: relative;
-	border-radius: 3rem;
+	border-radius: 2rem;
 	display: block;
 	margin: auto;
-
 }
 
 .main_grid_parrafo{
 	margin-bottom: 2rem;
 	margin-top: 2rem;
+	padding-top: 2rem;
+	color: #ffffff;
 }
+
 .main_grid_img{
 	position: relative;
-	border-radius: 3rem;
-
+	border-radius: 2rem;
+	padding-top: 1rem;
 }
 
+iframe{
+	margin-top: 1rem;
+	margin-bottom: 0rem;
+}
 /*FOOTER*/
 
+footer{
+	margin-top: 0rem;
+	border-top: solid 0.5rem #ff5729;
+}
 .jumbotron{
 	background-color: none;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+	color:none;
 }
 
-
 .jumbotron_footer{
-	background-color: #595859;
+	background-color: #8b9090;
 	height: 200px;
 }
 
@@ -141,4 +261,5 @@
 	float: left;
 	text-align: center;
 	font-size: 0.8rem;
+	color: #FF5729;
 }
