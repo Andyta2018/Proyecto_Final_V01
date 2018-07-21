@@ -1,13 +1,3 @@
-/* Font css*/
-@font-face {
-    font-family: Oregano-Regular;
-    src: url(fonts/Oregano/Oregano-Regular.ttf);
-}
-@font-face {
-    font-family: Pompiere-Regular;
-    src: url(fonts/Pompiere/Pompiere-Regular.ttf);
-}
-
 body{
 	background-color: #595859;
 }
@@ -78,7 +68,33 @@ body{
 	padding-left: 25rem;
 	
 }
+@media (max-width: 600px){
+		.navbar-text{
+			width: 0px;
+			height: 0px;
+			display: none !important;
+		}
 
+		.social ul li .icon-facebook {
+			opacity: 0.3;
+    		filter: alpha(opacity=30);} 
+		.social ul li .icon-twitter {
+			opacity: 0.3;
+    		filter: alpha(opacity=30);}
+		.social ul li .icon-insta {
+			opacity: 0.3;
+    		filter: alpha(opacity=30);}
+		.social ul li .icon-youtube {
+			opacity: 0.3;
+    		filter: alpha(opacity=30);}
+}
+
+@media (max-width: 800px){
+	.navbar_link_text{
+		opacity: 0.3;
+    	filter: alpha(opacity=30);}
+
+}
 /*Redes Sociales*/
 .social {
 	position: fixed; 
@@ -119,9 +135,6 @@ body{
 	line-height: 1;
 	
 }
-
-/*Header*/
-
 
 /*MAIN*/
 .main{
